@@ -56,7 +56,7 @@ class Admin(commands.Cog):
         support_url = 'https://discord.gg/hFDbWUrW'
 
         embed = discord.Embed(color=0xFFFFFF)
-        embed.set_author(name='VALORANT BOT PROJECT', url=github_project)
+        embed.set_author(name='VALORANT BOT PROJECT')
         embed.set_thumbnail(url='https://i.imgur.com/M93U4m6.jpg')
         embed.add_field(name='DEV:', value=f"[Threo#0515]({owner_url})", inline=False)
         view = ui.View()
